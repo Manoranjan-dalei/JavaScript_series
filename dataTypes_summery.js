@@ -34,3 +34,24 @@ const myFuntion = function(){
 
 console.log( typeof bigNumber);
 
+//+++++++++++++++++++++++MEMORY+++++++++++++++++++++++
+
+//Stack(Primitve) ,  Heap (Non-primitive)
+
+let myName = "Manoranjan"
+
+let anotherName = myName
+anotherName = "Happy"
+
+console.log(myName);
+
+console.log(anotherName);
+
+let userOne = {
+    gmail:"manojdalei9080@gmail.com"        //Heap area
+}
+
+let userTwo = userOne
+
+userTwo.gmail = "daleibabu4143@gmail.com"       //Heap area
+console.log(userOne);
