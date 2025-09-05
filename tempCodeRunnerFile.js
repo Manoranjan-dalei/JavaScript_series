@@ -1,4 +1,2 @@
-let newDate = new Date()
-// console.log(newDate);
-// console.log(newDate.getMonth()+1);
-// console.log(newDate.getDay());
+marvel_heros.push(dc_heros)
+// console.log(marvel_heros);
