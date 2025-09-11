@@ -1,1 +1,1 @@
- console.log(JsUser);
+console.log(this);
