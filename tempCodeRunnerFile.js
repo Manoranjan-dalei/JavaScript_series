@@ -1,7 +1,4 @@
-const score = 200
-
-// if(score > 100){
-//     const power = "fly"
-//     console.log(`user power:${power}`);
-    
-// }
+if(index == 5){
+    //     console.log(`Detected 5`);
+    //     break
+    // }
