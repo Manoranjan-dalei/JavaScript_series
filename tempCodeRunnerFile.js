@@ -1,4 +1,2 @@
-if(index == 5){
-    //     console.log(`Detected 5`);
-    //     break
-    // }
+  // .map( (num) => num + 1)
+            // .map( (num) => num >= 40)
