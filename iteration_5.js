@@ -1,28 +1,41 @@
-const myObject = {
-    js:'javascript',
-    cpp:'c++',
-    rb:"rubby",
-    swift:"swift by apple"
-}
+const coding = ["js" , "ruby" , "java" , "python" , "cpp"]
 
-for (const key in myObject) {
-    console.log(`${key} shortcut is for ${myObject[key]}`);
+// coding.forEach(function (val){
+//     console.log(val);
     
-}
+// })
 
-const programming = ["js" , "rb" , "py" , "java" , "cpp"]
+// coding.forEach( (item) => {
+//     console.log(item);
+// })
 
-for (const key in programming) {
-   // console.log(programming[key]);
+// function printMe(item){
+//     console.log(item);
     
-}
+// }
+// coding.forEach(printMe)
 
-const map = new Map()
-map.set('IN',"India")
-map.set('USA',"Unaited States Of America")
-map.set('FR',"France")
+// coding.forEach( (item , index , arr) => {
+//     console.log(item , index , arr);
+    
+// })
 
-for (const key in object) {
-        console.log(key);
-        
-}
+const myCoding = [
+    {
+        languageName: "javaScript",
+        languageFileName: "js"
+    },
+    {
+        languageName: "java",
+        languageFileName: "java"
+    },
+    {
+        languageName: "c++",
+        languageFileName: "C plus"
+    },
+]
+
+myCoding.forEach( (item) => {
+    console.log(item.languageName);
+    
+})
